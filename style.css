@@ -8,11 +8,12 @@ html,
 body {
   height: 100%;
   width: 100%;
+  color: white;
 }
 
 main{
     height: 100vh;
-    background-image: url(./istockphoto.jpg);
+    background-image: url(./backf.avif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -27,4 +28,115 @@ main{
     text-align: center;
     font-size: 60px;
     padding: 30px;
+}
+
+
+
+
+#login_containder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#login_containder > div{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px  1px  white;
+
+}
+#login_containder > div > h3{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+h3>div{
+    width: 200px;
+    /* border: 2px solid red; */
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+#hand_down_icon{
+    height: 30px;
+    width: 30px;
+    /* padding-top: 10px; */
+    filter: invert(1);
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.input{
+    width: 300px;
+    align-content: center;
+    outline: none;
+    border: none;
+}
+
+.input > label {
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
+}
+.input >label> input{
+    outline: none;
+    border: none;
+    height: 20px;
+    width: 200px;
+    margin-left: 12px;
+}
+
+.input > label >img{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+
+
+
+button{
+    background-color: transparent;
+    border: 4px solid white;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+button > img{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+}
+
+footer>h6{
+    text-align: center;
+    font-size: 14px;
 }
